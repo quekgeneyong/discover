@@ -1,0 +1,46 @@
+#home {
+  font-family: "Avenir Next";
+}
+
+.top {
+  text-align: center;
+  color: #e8e8e8;
+  font-family: "Avenir Next";
+  background-color: rgba(31, 31, 31, 0.85);
+  padding: 200px;
+}
+
+.subpara {
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightColumn {
+  flex: 1 0 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.mainColumn {
+  flex: 3 0 0;
+  padding-right: 10%;
+  margin-top: 2%;
+}
+
+.description {
+  font-size: 1.15em;
+  font-weight: normal;
+}
+
+.card {
+    flex: none;
+    background-color: grey;
+    padding: 20px;
+    margin-top: 20px;
+}

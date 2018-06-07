@@ -1,0 +1,96 @@
+#discover {
+  color: black;
+}
+
+.filler {
+  height: 50px;
+  width: 100%;
+}
+
+.filler-2 {
+  height: 7px;
+  width: 100%;
+}
+
+.dropdown {
+  background: whitesmoke;
+  padding-left: 81px;
+  padding-top: 0.1%;
+}
+
+.feed-container {
+  padding: 7%;
+  padding-top: 2%;
+  margin: 0;
+  width: auto;
+  height: 100%;
+  background: whitesmoke;
+
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.feed-child {
+  background: white;
+  padding-top: 0.5%;
+  width: 30%;
+  height: auto;
+  margin-top: 1%;
+  border: 1px solid gainsboro;
+  border-radius: 7px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  list-style: none;
+}
+
+.event-type {
+  color: grey;
+  font-weight: 200;
+  font-size: 11px;
+  margin-left: 3%;
+}
+
+.event-name {
+  color: black;
+  font-weight: normal;
+  font-size: 30px;
+  margin-left: 3%;
+}
+
+.event-description {
+  color: grey;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 3%;
+}
+
+.event-image {
+  margin-top: 3%;
+  width: 100%;
+  border: 2px;
+}
+
+.event-image-placeholder {
+  margin-top: 3%;
+  width: 100%;
+  height:200px;
+  background: grey;
+}
+
+.event-image-placeholder-2 {
+  margin-top: 3%;
+  width: 100%;
+  height:200px;
+  background: blue;
+}
+
+.event-image-placeholder-3 {
+  margin-top: 3%;
+  width: 100%;
+  height:200px;
+  background: yellow;
+}
